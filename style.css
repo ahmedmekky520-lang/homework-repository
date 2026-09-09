@@ -1,0 +1,55 @@
+/* التنسيق الأساسي للكارت وثبات الأبعاد */
+.game-card {
+  height: 380px;
+  background-color: #111;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: pointer;
+}
+
+/* إخفاء طبقة النصوص الافتراضية وجعلها شفافة ومظلمة خفيفاً */
+.hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 70%);
+  opacity: 0; /* مخفية تماماً في البداية */
+  transform: translateY(10px); /* إزاحة خفيفة للأسفل لعمل تأثير حركة عند الصعود */
+  transition: all 0.3s ease-in-out;
+}
+
+/* تأثير الـ Hover: عند مرور الماوس تظهر النصوص ويضيء البوردر الفسفوري */
+.game-card:hover {
+  border: 3px solid #a5ff30 !important;
+  box-shadow: 0 0 20px rgba(165, 255, 48, 0.3);
+}
+
+.game-card:hover .hover-overlay {
+  opacity: 1; /* إظهار الكلام */
+  transform: translateY(0); /* إعادة النصوص لمكانها الطبيعي بسلاسة */
+}
+
+/* أزرار الأسهم الدائرية السفلية وتناسقها */
+.btn-arrow {
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+.btn-arrow:hover {
+  background-color: #a5ff30;
+  color: #000;
+  border-color: #a5ff30;
+}
+
+/* زر VIEW ALL GAMES المفرغ الفسفوري */
+.btn-view-all {
+  color: #a5ff30;
+  border: 2px solid #a5ff30;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+.btn-view-all:hover {
+  background-color: #a5ff30;
+  color: #000;
+  box-shadow: 0 0 15px rgba(165, 255, 48, 0.4);
+}
