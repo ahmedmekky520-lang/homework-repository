@@ -4,14 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Doppio+One&display=swap" rel="stylesheet">
-
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
 
    <link rel="stylesheet" href="style.css">
@@ -20,687 +13,793 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GameArena - Hero Section</title>
+  <title>EliteHomes Your Dream Home Awaits</title>
   
 </head>
+<body>
 
-<body class="bg-black text-white m-0 p-0" style="overflow-x: hidden;">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 sticky-top border-bottom border-secondary border-opacity-25" style="backdrop-filter: blur(10px);">
-  <div class="container">
-    
-    <a class="navbar-brand fw-black text-uppercase tracking-wider fs-3" href="#" style="color: #a5ff30;">
-      <i class="fas fa-gamepad me-2"></i>GameArena
-    </a>
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#gamearenaNav" aria-controls="gamearenaNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon rounded-3"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="gamearenaNav">
-      
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3 pt-3 pt-lg-0 text-center">
-        <li class="nav-item">
-          <a class="nav-link active fw-bold" aria-current="page" href="#" style="color: #a5ff30;">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary-hover" href="#">Our Games</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary-hover" href="#">What We Do</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary-hover" href="#">Our Teams</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link text-secondary-hover" href="#">Contact Us</a>
-        </li>
-      </ul>
-      
-      <div class="d-grid gap-2 d-lg-flex justify-content-center pb-3 pb-lg-0">
-                <p><i class="fas fa-bell text-light"></i></p>
-                <p><i class="fas fa-message text-light"></i></p>
-        <button class="btn fw-bold px-4 py-2 rounded-3 text-black" style="background-color: #a5ff30;">Sign in</button>
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-
-  <div class="position-relative w-100 d-flex align-items-center py-5" style="min-height: 680px;">
-    
-    <img src="images/hero-bg.jpg" 
-         class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" 
-         style="filter: blur(2px) brightness(0.2); z-index: -1;">
-    
-
-    <div class="container text-center text-lg-start position-relative" style="z-index: 1;">
-      <div class="row align-items-center g-5">
-        
-      
-        <div class="col-12 col-lg-6">
-          <h1 class="text-white fw-bold text-uppercase" style="font-size: calc(2.2rem + 1.5vw); line-height: 1.2;font-family: Audiowide, sans-serif; font-weight: 400; font-style: normal;">
-            THE ULTIMATE <br>
-            <span class="d-block pt-2 pb-2 fw-black" style="color: #a5ff30;">GAMING</span>
-            EXPERIENCE
-          </h1>
-          
-          <p class="text-secondary fs-5 my-4 mx-auto mx-lg-0" style="max-width: 550px;">
-            Join millions of gamers worldwide in the most competitive eSports tournaments. 
-            Experience next-level gaming with cutting-edge technology and endless possibilities.
-          </p>
-          
-          
-          <div class="d-grid gap-3 d-sm-flex justify-content-lg-start justify-content-center mt-5 px-3 px-sm-0">
-            <button class="btn p-3 fw-bold rounded-3 text-black px-5" style="background-color: #a5ff30;">
-              Start Gaming Now
+    <!-- شريط التنقل (Navbar) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 position-fixed w-100" style="z-index: 100;">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4 text-dark" href="#">
+                EliteHomes
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <button class="btn p-3 fw-bold rounded-3 bg-transparent px-5" style="color: #a5ff30; border: 1px solid #a5ff30;">
-              Watch Tournaments
-            </button>
-          </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-semibold">
+                    <li class="nav-item"><a class="nav-link active px-3" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown">Properties</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">For Sale</a></li>
+                            <li><a class="dropdown-item" href="#">For Rent</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <!-- الواجهة الرئيسية وقسم البحث (Hero Section) -->
+    <header class="position-relative text-white text-center py-5" style="background: linear-gradient(rgba(45, 15, 85, 0.85), rgba(45, 15, 85, 0.95)), url('') center/cover no-repeat; min-height: 80vh; display: flex; align-items: center;">
+        <div class="container py-4">
+            
+            <h1 class="display-4 fw-bold mb-3">Find Your Dream Home</h1>
+            <p class="lead mx-auto mb-5 text-light-50" style="max-width: 700px; opacity: 0.85;">
+                Discover exceptional properties in prime locations. From modern condos to luxury estates, we help you find the perfect place to call home.
+            </p>
+
+            <!-- صندوق فلاتر البحث الأبيض -->
+            <div class="card p-4 text-dark border-0 shadow-lg mx-auto bg-white text-start" style="max-width: 850px; border-radius: 16px;">
+                <form>
+                    <!-- الصف الأول -->
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small mb-1 fw-medium">Location</label>
+                            <div class="input-group">
+                               <i class="fas fa-location-pin position-absolute start-0 top-50 " style="z-index: 10;"></i>
+                                <input type="text" class="form-control py-2 position-relative" placeholder="     Enter city, neighborhood, or ZIP code">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label text-secondary small mb-1 fw-medium">Property Type</label>
+                            <select class="form-select py-2 text-muted">
+                                <option selected>All Types</option>
+                                <option>House</option>
+                                <option>Apartment</option>
+                                <option>Condo</option>
+                                <option>Townhouse</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label text-secondary small mb-1 fw-medium">Price Range</label>
+                            <select class="form-select py-2 text-muted">
+                                <option selected>Any Price</option>
+                                <option>$0- $500k</option>
+                                <option>$500k - $1M</option>
+                                <option>$1M-$2M</option>
+                                <option>$2M+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- الصف الثاني -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-3">
+                            <label class="form-label text-secondary small mb-1 fw-medium">Bedrooms</label>
+                            <select class="form-select  py-2 text-muted">
+                                <option selected>Any</option>
+                                <option>1+</option>
+                                <option>2+</option>
+                                <option>3+</option>
+                                <option>4+</option>
+                                <option>5+</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3">
+                            <label class="form-label text-secondary small mb-1 fw-medium">Bathrooms</label>
+                            <select class="form-select  py-2 text-muted">
+                                <option selected>Any</option>
+                                <option>1+</option>
+                                <option>2+</option>
+                                <option>3+</option>
+                                <option>4+</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3">
+                            <label class="form-label text-secondary small mb-1 fw-medium">Min Sq Ft</label>
+                            <input type="number" class="form-control py-2" placeholder="1,000">
+                        </div>
+                        <div class="col-sm-3">
+                            <label class="form-label text-secondary small mb-1 fw-medium">Max Sq Ft</label>
+                            <input type="number" class="form-control py-2" placeholder="5,000">
+                        </div>
+                    </div>
+
+                    <!-- زر البحث البنفسجي العريض -->
+                    <button type="submit" class="btn text-white w-100 py-3 fw-bold fs-5 border-0 " style="background-color: #8A2BE2; border-radius: 10px;">
+                        <i class="fas fa-search me-2"></i> Search Properties
+                    </button>
+                </form>
+            </div>
+    <div class="information d-flex justify-content-between mt-5">
+        <h2>15,000+<br><p class="fs-4 fw-normal">Active Listings</p></h2>
+        <h2>98%<br><p class="fs-4 fw-normal">Client Satisfaction</p></h2>
+        <h2>500+<br><p class="fs-4 fw-normal">Expert Agents</p></h2>
+        <h2>25<br><p class="fs-4 fw-normal">Years Experience</p></h2>
+       </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="premium">
+            <div class="premium-header mt-5 d-flex justify-content-center align-items-start">
+                <span class=" me-2 fs-4" style="color: purple;">  _________</span>
+                <p class=" rounded-4 text-center mt-2" style="color: blue; border: 3px solid silver; width: 200px;">Premium Collection</p>
+                <span class=" ms-2 fs-4" style="color: purple;">  _________</span>
+            </div>
+            <div class="featured text-center">
+            <h2 class="display-5 fw-bold text-center mb-3" 
+             style="background: linear-gradient(to right, #8203fa, #FF8C00); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+             Featured Properties
+              </h2>
+                <p class="fs-4 w-50 m-auto">Discover our handpicked selection of premium properties in the most desirable locations</p>
+            </div>
+            <div class="photo">
+               <section class="container py-5">
+    <div class="row g-4">
         
-      
-        <div class="col-12 col-lg-6 d-flex justify-content-center">
-          <div class="position-relative" style="max-width: 550px; width: 100%;">
-            
-            
-            <img src="images/hero-img.png" 
-                 class="img-fluid rounded-4 w-100 shadow-lg" 
-                 style="border: 5px solid #a5ff30;">
-            
-            
-            <div class=" m-3 bg-dark bg-opacity-75 text-light rounded-3 p-3 shadow-lg d-flex align-items-center gap-3" 
-                 style="position:absolute; right:65%; top:90%; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px); min-width: 180px;">
-              <div class="bg-warning bg-opacity-25 rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
-                <i class="fas fa-trophy text-warning"></i>
-              </div>
-              <div class="text-start">
-                <p class="mb-0 text-uppercase small text-light font-monospace" style="font-size: 10px;">active players</p>
-                <h4 class="fw-bold mb-0">2.5M+</h4>
-              </div>
+        <!-- Card 1: Modern Luxury Estate -->
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 16px;">
+                <!-- Image Container with Zoom effect -->
+                <div class="position-relative overflow-hidden">
+                    <img src="Elite Homes Images/featured-properties-img-1.png" 
+                         class="card-img-top" 
+                         alt="Modern Luxury Estate" 
+                         style="height: 240px; object-fit: cover; transition: transform 0.4s ease-in-out;"
+                         onmouseover="this.style.transform='scale(1.1)'" 
+                         onmouseout="this.style.transform='scale(1)'">
+                    
+                    <!-- Badges & Buttons using Font Awesome -->
+                    <span class="position-absolute top-0 start-0 m-3 badge rounded-pill px-3 py-2 fw-semibold" style="background-color: #8B5CF6;">Featured</span>
+                    <button class="position-absolute top-0 end-0 m-3 btn btn-white rounded-circle d-flex align-items-center justify-content-center p-0 shadow-sm" style="width: 40px; height: 40px; background: white; border: none;">
+                        <i class="fas fa-heart text-dark fs-5"></i>
+                    </button>
+                    <span class="position-absolute bottom-0 start-0 m-3 badge bg-dark bg-opacity-70 px-2 py-1.5 small d-flex align-items-center">
+                        <i class="fas fa-camera me-1"></i> 24 Photos
+                    </span>
+                </div>
+                <!-- Card Details -->
+                <div class="card-body p-4 text-start">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="fw-bold mb-0" style="color: #8B5CF6;">$2,850,000</h4>
+                        <span class="text-secondary small">Price per sq ft: $425</span>
+                    </div>
+                    <p class="text-secondary small mb-3">4 beds • 3.5 baths • 6,720 sqft</p>
+                    <h5 class="card-title fw-bold text-dark mb-2">Modern Luxury Estate</h5>
+                    <p class="card-text text-secondary small mb-4">1234 Beverly Hills Drive, Beverly Hills, CA 90210</p>
+                    <hr class="text-muted opacity-25 mb-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="Elite Homes Images/avatar-1.jpg" class="rounded-circle me-2" alt="Agent" style="width: 32px; height: 32px; object-fit: cover;">
+                            <span class="small fw-medium text-dark">John Mitchell</span>
+                        </div>
+                        <a href="#" class="btn btn-sm px-3 py-2 fw-semibold border-0" style="background-color: #F3E8FF; color: #8B5CF6; border-radius: 8px;">Schedule Tour</a>
+                    </div>
+                </div>
             </div>
-            
-          </div>
         </div>
 
-      </div>
+        <!-- Card 2: Downtown Penthouse -->
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 16px;">
+                <div class="position-relative overflow-hidden">
+                    <img src="Elite Homes Images/featured-properties-img-2.png" 
+                         class="card-img-top" 
+                         alt="Downtown Penthouse" 
+                         style="height: 240px; object-fit: cover; transition: transform 0.4s ease-in-out;"
+                         onmouseover="this.style.transform='scale(1.1)'" 
+                         onmouseout="this.style.transform='scale(1)'">
+                    
+                    <span class="position-absolute top-0 start-0 m-3 badge rounded-pill px-3 py-2 fw-semibold bg-success">New Listing</span>
+                    <button class="position-absolute top-0 end-0 m-3 btn btn-white rounded-circle d-flex align-items-center justify-content-center p-0 shadow-sm" style="width: 40px; height: 40px; background: white; border: none;">
+                        <i class="fas fa-heart text-dark fs-5"></i>
+                    </button>
+                    <span class="position-absolute bottom-0 start-0 m-3 badge bg-dark bg-opacity-70 px-2 py-1.5 small d-flex align-items-center">
+                        <i class="fas fa-camera me-1"></i> 18 Photos
+                    </span>
+                </div>
+                <!-- Card Details -->
+                <div class="card-body p-4 text-start">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="fw-bold mb-0" style="color: #8B5CF6;">$1,425,000</h4>
+                        <span class="text-secondary small">Price per sq ft: $650</span>
+                    </div>
+                    <p class="text-secondary small mb-3">3 beds • 2.5 baths • 2,192 sqft</p>
+                    <h5 class="card-title fw-bold text-dark mb-2">Downtown Penthouse</h5>
+                    <p class="card-text text-secondary small mb-4">789 Metropolitan Ave, New York, NY 10001</p>
+                    <hr class="text-muted opacity-25 mb-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="" class="rounded-circle me-2" alt="Agent" style="width: 32px; height: 32px; object-fit: cover;">
+                            <span class="small fw-medium text-dark">Emily Rodriguez</span>
+                        </div>
+                        <a href="#" class="btn btn-sm px-3 py-2 fw-semibold border-0" style="background-color: #F3E8FF; color: #8B5CF6; border-radius: 8px;">Schedule Tour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: Family Suburban Home -->
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-radius: 16px;">
+                <div class="position-relative overflow-hidden">
+                    <img src="Elite Homes Images/featured-properties-img-3.png" 
+                         class="card-img-top" 
+                         alt="Family Suburban Home" 
+                         style="height: 240px; object-fit: cover; transition: transform 0.4s ease-in-out;"
+                         onmouseover="this.style.transform='scale(1.1)'" 
+                         onmouseout="this.style.transform='scale(1)'">
+                    
+                    <span class="position-absolute top-0 start-0 m-3 badge rounded-pill px-3 py-2 fw-semibold bg-warning text-dark">Price Drop</span>
+                    <button class="position-absolute top-0 end-0 m-3 btn btn-white rounded-circle d-flex align-items-center justify-content-center p-0 shadow-sm" style="width: 40px; height: 40px; background: white; border: none;">
+                        <i class="fas fa-heart text-dark fs-5"></i>
+                    </button>
+                    <span class="position-absolute bottom-0 start-0 m-3 badge bg-dark bg-opacity-70 px-2 py-1.5 small d-flex align-items-center">
+                        <i class="fas fa-camera me-1"></i> 32 Photos
+                    </span>
+                </div>
+                <!-- Card Details -->
+                <div class="card-body p-4 text-start">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="fw-bold mb-0" style="color: #8B5CF6;">$875,000</h4>
+                        <span class="text-secondary small text-decoration-line-through">$925,000</span>
+                    </div>
+                    <p class="text-secondary small mb-3">5 beds • 4 baths • 3,845 sqft</p>
+                    <h5 class="card-title fw-bold text-dark mb-2">Family Suburban Home</h5>
+                    <p class="card-text text-secondary small mb-4">456 Oak Tree Lane, Austin, TX 78701</p>
+                    <hr class="text-muted opacity-25 mb-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="Elite Homes Images/avatar-3.jpg" class="rounded-circle me-2" alt="Agent" style="width: 32px; height: 32px; object-fit: cover;">
+                            <span class="small fw-medium text-dark">Michael Chen</span>
+                        </div>
+                        <a href="#" class="btn btn-sm px-3 py-2 fw-semibold border-0" style="background-color: #F3E8FF; color: #8B5CF6; border-radius: 8px;">Schedule Tour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button text-center">
+        <button class="py-3 rounded-3 fs-6 fw-medium px-4 text-light" style="background-color:#9e078a;">View All Properties<i class="fas fa-arrow-right"></i></button>
+        </div>
+
     </div>
-  </div>
-  <section class="latest-games-section py-5 bg-black text-white">
-  <div class="container text-center">
-    
-    <h2 class="section-title mb-5 fw-bold text-uppercase" style="font-size: 3rem;">Our Latest Games</h2>
-
-    <div id="gamesCarousel" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-inner">
-        
-        <div class="carousel-item active">
-          <div class="row g-4 justify-content-center">
-            
-            <!-- الكارت 1 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images/latest-games-1.png" class="w-100 h-100 object-fit-cover" alt="Alien Game">
-                <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                  <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-dark bg-opacity-75 text-warning"><i class="fas fa-gamepad fs-5 me-1"></i> ADVENTURE</span>
-                    <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-users fs-5 me-1" style="filter: drop-shadow(0 0 8px #a5ff30);"></i> MULTIPLAYER</span>
-                  </div>
-                  <h4 class="fw-bold font-monospace text-light m-0">Alien Companions</h4>
-                </div>
-              </div>
-            </div>
-
-            <!-- الكارت 2 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images/latest-games-2.png" class="w-100 h-100 object-fit-cover" alt="Cyber Run 2099">
-                <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                  <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-dark bg-opacity-75 text-warning"><i class="fas fa-flag-checkered me-1"></i> RACING</span>
-                    <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-bolt-lightning fs-5 me-1" style="filter: drop-shadow(0 0 8px #a5ff30);"></i> SCI-FI</span>
-                  </div>
-                  <h4 class="fw-bold font-monospace text-light m-0">Cyber Run 2099</h4>
-                </div>
-              </div>
-            </div>
-
-            <!-- الكارت 3 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images/latest-games-3.png" class="w-100 h-100 object-fit-cover" alt="Spaceship Game">
-                <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                  <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-black bg-opacity-75 text-warning"><i class="fas fa-meteor me-1"></i> ACTION</span>
-                    <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-desktop fs-5 me-1"style="filter: drop-shadow(0 0 8px #a5ff30);"></i> GEFORCE</span>
-                  </div>
-                  <h4 class="fw-bold font-monospace text-light m-0">The Legend of Zelda: Tears of the Kingdom</h4>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="row g-4 justify-content-center">
-            
-            <!-- الكارت 4 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images\latest-games-4.png" class="w-100 h-100 object-fit-cover" alt="Game 4">
-                <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                  <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-black bg-opacity-75 text-warning"><i class="fas fa-shield-halved fs-5" style=" width: 20px;"></i> RPG</span>
-                                        <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-magic-wand-sparkles fs-5 me-1"style="filter: drop-shadow(0 0 8px #a5ff30);"></i> FANTASY</span>
-                  </div>
-                  <h4 class="fw-bold font-monospace text-light m-0">Aetheria Chronicles</h4>
-                </div>
-              </div>
-            </div>
-
-            <!-- الكارت 5 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images\latest-games-5.png" class="w-100 h-100 object-fit-cover" alt="Game 5">
-                 <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                  <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-black bg-opacity-75 text-warning">
-                   <i class="fas fa-crosshairs fs-5 text-warning" style="filter: drop-shadow(0 0 8px #a5ff30);"></i> SHOOTER</span>
-                    <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-users fs-5 me-1"style="filter: drop-shadow(0 0 8px #a5ff30);"></i> CO-OP</span>
-                  </div>
-                  <h4 class="fw-bold font-monospace text-light m-0">Warfront Protocol</h4>
-                </div>
-              </div>
-            </div>
-
-            <!-- الكارت 6 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images\latest-games-6.png" class="w-100 h-100 object-fit-cover" alt="Game 6">
-               <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                  <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-black bg-opacity-75 text-warning"><!-- علامة تصويب قناص نيون فسفورية متوهجة -->
-                   <i class="fas fa-dragon fs-5 text-warning" style="filter: drop-shadow(0 0 8px #a5ff30);"></i> FOOTBALL</span>
-                    <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-star fs-5 me-1"style="filter: drop-shadow(0 0 8px #a5ff30);"></i> FANTASY</span>
-                  </div>
-                  <h4 class="fw-bold font-monospace text-light m-0">Shot Striker</h4>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-         <div class="carousel-item">
-          <div class="row g-4 justify-content-center">
-            
-            <!-- الكارت 7 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images\latest-games-7.png" class="w-100 h-100 object-fit-cover" alt="Game 4">
-                <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                   <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-black bg-opacity-75 text-warning"><!-- علامة تصويب قناص نيون فسفورية متوهجة -->
-                   <i class="fas fa-trophy fs-5 text-warning" style="filter: drop-shadow(0 0 8px #a5ff30);"></i> SPORTS</span>
-                  <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-fire fs-5 me-1"style="filter: drop-shadow(0 0 8px #a5ff30);"></i> LEAGUE</span>
-                  </div>
-                  <h4 class="fw-bold font-monospace text-light m-0">Epic Gaming League</h4>
-                </div>
-              </div>
-            </div>
-
-            <!-- الكارت 8 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images\latest-games-8.png" class="w-100 h-100 object-fit-cover" alt="Game 5">
-                <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                  <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-black bg-opacity-75 text-warning"><!-- علامة تصويب قناص نيون فسفورية متوهجة -->
-                   <i class="fas fa-rocket fs-5 text-warning" style="filter: drop-shadow(0 0 8px #a5ff30);"></i> SPACE</span>
-                  <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-circle fs-5 me-1"style="filter: drop-shadow(0 0 8px #a5ff30);"></i> EXPLORATION</span>
-                  </div> 
-                  <h4 class="fw-bold font-monospace text-light m-0">Barren alien worlds</h4>
-                </div>
-              </div>
-            </div>
-
-            <!-- الكارت 9 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="game-card rounded-4 overflow-hidden position-relative shadow-lg">
-                <img src="images\latest-games-9.png" class="w-100 h-100 object-fit-cover" alt="Game 6">
-                <div class="hover-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-start">
-                   <div class="mb-auto d-flex gap-2">
-                    <span class="badge bg-black bg-opacity-75 text-warning"><!-- علامة تصويب قناص نيون فسفورية متوهجة -->
-                   <i class="fas fa-dragon fs-5 text-warning" style="filter: drop-shadow(0 0 8px #a5ff30);"></i> ACTION</span>
-                    <span class="text-warning badge bg-dark bg-opacity-75"><i class="fas fa-torii-gate fs-5 me-1"style="filter: drop-shadow(0 0 8px #a5ff30);"></i> FUTURISTIC</span>
-                  </div>
-                  <h4 class="fw-bold font-monospace text-light m-0">Cloveland Quest</h4>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="d-flex align-items-center justify-content-center gap-3 mt-5">
-      <button class="btn btn-arrow rounded-circle d-flex align-items-center justify-content-center" type="button" data-bs-target="#gamesCarousel" data-bs-slide="prev">
-        <i class="fas fa-arrow-left"></i>
-      </button>
-      
-      <button class="btn btn-arrow rounded-circle d-flex align-items-center justify-content-center" type="button" data-bs-target="#gamesCarousel" data-bs-slide="next">
-        <i class="fas fa-arrow-right"></i>
-      </button>
-
-      <button class="btn btn-view-all px-4 py-2 fw-bold text-uppercase rounded-2 ms-2">
-        View All Games
-      </button>
-    </div>
-
-  </div>
 </section>
+</div>
 
-<section class="py-5 bg-black text-white text-center">
-  <div class="container px-4">
-    
-    <div class="d-flex align-items-center justify-content-center gap-3 mb-3">
-      <span class="d-inline-block" style="width: 40px; height: 2px; background-color: #a5ff30;"></span>
-      <span class="text-uppercase tracking-wider font-monospace fw-bold small" style="color: #a5ff30;">What We Do</span>
-      <span class="d-inline-block" style="width: 40px; height: 2px; background-color: #a5ff30;"></span>
-    </div>
-
-    <h2 class="fw-bold text-uppercase mb-5 display-6 text-wrap">
-      More Than Just Games <br>
-      We Build <span style="color: #a5ff30;">Interactive</span> Journeys
-    </h2>
-
-  
-    <div class="row g-4 g-lg-5 justify-content-center">
-      
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="card bg-dark bg-opacity-25 border border-secondary border-opacity-50 rounded-4 p-4 d-flex flex-column align-items-center justify-content-center" style="height: 320px;">
-          <div class="rounded-3 mb-4 d-flex align-items-center justify-content-center" style="width: 65px; height: 65px; background-color: #161618; color: #a5ff30;">
-            <i class="fas fa-desktop fs-3"></i>
-          </div>
-          <h5 class="card-title fw-bold font-monospace m-0 text-white">PC Game<br>Development</h5>
-        </div>
-      </div>
-
-    
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="card bg-dark bg-opacity-25 border border-secondary rounded-4 p-4 d-flex flex-column align-items-center justify-content-center position-relative" 
-             style="height: 320px;">
-          
-          
-          
-          
-          <div class="rounded-3 mb-4 d-flex align-items-center justify-content-center bg-dark" style="width: 65px; height: 65px;">
-            <i class="fas fa-mobile-alt fs-3" style="color: #a5ff30;"></i>
-          </div>
-          <h5 class="card-title fw-bold font-monospace m-0 text-white">Mobile Game<br>Development</h5>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="card border-0 rounded-4  d-flex align-items-center justify-content-center overflow-hidden" style="height: 320px;">
-          <img src="images/what-we-do-1.png" class="img-fluid rounded-3" style="height: 250%; width: 250%;">
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="card bg-dark bg-opacity-25 border border-secondary border-opacity-50 rounded-4 p-4 d-flex flex-column align-items-center justify-content-center" style="height: 320px;">
-          <div class="rounded-3 mb-4 d-flex align-items-center justify-content-center" style="width: 65px; height: 65px; background-color: #161618; color: #a5ff30;">
-            <i class="fas fa-vr-cardboard fs-3"></i>
-          </div>
-          <h5 class="card-title fw-bold font-monospace m-0 text-white">AR/VR<br>Solutions</h5>
-        </div>
-      </div>
-
-    
-
- <div class="col-12 col-md-6 col-lg-3">
-        <div class="card bg-dark bg-opacity-25 border border-secondary border-opacity-50 rounded-4 p-4 d-flex flex-column align-items-center justify-content-center" style="height: 320px;">
-          <div class="rounded-3 mb-4 d-flex align-items-center justify-content-center" style="width: 65px; height: 65px; background-color: #161618; color: #a5ff30;">
-            <i class="fas fa-cubes fs-3"></i>
-          </div>
-          <h5 class="card-title fw-bold font-monospace m-0 text-white">AR/VR<br>DESIGN</h5>
-        </div>
-      </div>
-
-      
-  <div class="col-12 col-md-6 col-lg-3">
-        <div class="card border-0 rounded-4  d-flex align-items-center justify-content-center overflow-hidden" style="height: 320px;">
-          <img src="images\what-we-do-2.png" class="img-fluid rounded-3" style="height: 250%; width: 250%;">
-        </div>
-      </div>
-
-       <div class="col-12 col-md-6 col-lg-3">
-        <div class="card bg-dark bg-opacity-25 border border-secondary border-opacity-50 rounded-4 p-4 d-flex flex-column align-items-center justify-content-center" style="height: 320px;">
-          <div class="rounded-3 mb-4 d-flex align-items-center justify-content-center" style="width: 65px; height: 65px; background-color: #161618; color: #a5ff30;">
-            <i class="fab fa-playstation fs-3"></i>
-          </div>
-          <h5 class="card-title fw-bold font-monospace m-0 text-white">PS4 GAME<br>DEVELOPMENT</h5>
-        </div>
-      </div>
-
-
- <div class="col-12 col-md-6 col-lg-3">
-        <div class="card bg-dark bg-opacity-25 border border-secondary border-opacity-50 rounded-4 p-4 d-flex flex-column align-items-center justify-content-center" style="height: 320px;">
-          <div class="rounded-3 mb-4 d-flex align-items-center justify-content-center" style="width: 65px; height: 65px; background-color: #161618; color: #a5ff30;">
-            <i class="fas fa-cube fs-3"></i>
-          </div>
-          <h5 class="card-title fw-bold font-monospace m-0 text-white">3D <br>MODELINGS</h5>
-        </div>
-      </div>
-
-
-    </div>
-
-  </div>
 </section>
-<p style="color:#a5ff30;" class="text-center">_____________________________________________________________</p>
-<section class="py-5 bg-dark w-100" style="overflow: hidden;">
-  <div class="container-fluid px-0">
-    <div class="d-flex" style="width: max-content;">
-      
-      <div class="d-flex gap-3" style="animation: moveLeft 20s linear infinite; white-space: nowrap;">
-        
-        <img src="images\logo-7.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-4.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-3.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-8.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\what-we-do-1.png" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-4.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\latest-games-1.png" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-
-        <div class="green" style="height: 50%; width: 50%; background-color: #aef85a; filter:blur(50px);"></div>
-        
-       <img src="images\logo-7.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-4.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-3.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-8.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\what-we-do-1.png" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-4.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\latest-games-1.png" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-
-      </div>
-    </div>
-
-    <div class="d-flex mt-4" style="width: max-content;">
-      <div class="d-flex gap-3" style="animation: moveRight 20s linear infinite; white-space: nowrap;">
-        <img src="images\logo-7.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-4.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-3.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-8.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-5.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\what-we-do-1.png" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\logo-4.jpg" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-        <img src="images\latest-games-1.png" class="rounded-4 border border-secondary border-opacity-25 shadow" style="width: 120px; height: 120px; object-fit: cover;">
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- 🎨 أسطر تحديد مسار الحركة (ضعها في آخر صفحة الـ HTML في وسم <style> سريع) -->
-<style>
-  @keyframes moveLeft {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); } /* بتتحرك وتلف للنصف تلقائياً */
-  }
-  @keyframes moveRight {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100); }
-  }
-</style>
-
-<section style="padding: 7%;">
-   <div class="d-flex align-items-center justify-content-center gap-3 mb-3 mt-4">
-      <span class="d-inline-block" style="width: 40px; height: 2px; background-color: #a5ff30;"></span>
-      <span class="text-uppercase tracking-wider font-monospace fw-bold small" style="color: #a5ff30;">OUR TEAM</span>
-      <span class="d-inline-block" style="width: 40px; height: 2px; background-color: #a5ff30;"></span>
-    </div>
+<section >
+    <div style="background-color: #350352; ">
+    <div class="premium-header mt-5 d-flex justify-content-center align-items-start">
+                <span class=" me-2 fs-4" style="color: yellow;">  _________</span>
+                <p class=" rounded-4 text-center mt-2" style="color: blue; border: 3px solid silver; width: 200px; background-color: white;">Client Stories</p>
+                <span class=" ms-2 fs-4" style="color: yellow;">  _________</span>
+            </div>
+            <div class="featured text-center">
+            <h2 class="display-5 fw-bold text-center mb-3" 
+             style=" color: white;">
+             What Our Clients Say
+              </h2>
+                <p class="fs-4 w-50 m-auto" style="color: white;">Hear from satisfied homeowners who found their dream properties with EliteHomes 5.0 out of 5</p> </div>
+</div>
 <div>
-  <h2 class="fw-bold fs-1 text-center">Our Best Team Members</h2>
-  <p class="text-center" style="color: gray; font-size: small;">
-    Meet the professional gamers and experts behind our success</p>
-</div>
+    <!-- قسم الآراء بالخلفية البنفسجية -->
+<section class="py-5 position-relative" style="background-color: #350352; min-height: 450px;">
+  
+  <!-- بداية الكاروسيل من بوتستراب -->
+  <div id="testimonialsCarousel" class="carousel slide container-md pt-4" data-bs-ride="carousel">
+    
+    <!-- مؤشرات النقاط السفلى (Indicators) -->
+    <div class="carousel-indicators mb-0" style="bottom: -40px;">
+      <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active custom-dot" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" class="custom-dot" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" class="custom-dot" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="3" class="custom-dot" aria-label="Slide 4"></button>
+    </div>
 
-<div class="container">
-  <div class="child-container">
+    <!-- محتوى السلايدر (البطاقات) -->
+    <div class="carousel-inner px-md-5">
+      
+      <!-- البطاقة الأولى (نشطة) -->
+      <div class="carousel-item active">
+        <div class="card border-0 mx-auto p-4 p-md-5 shadow-lg" style="max-width: 750px; border-radius: 20px;">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <span class="fs-5">⭐⭐⭐⭐⭐</span>
+            <span class="text-secondary small">5.0 out of 5</span>
+          </div>
+          <p class="card-text text-dark lh-base mb-4" style="font-size: 1.05rem;">
+            "As first-time investors, we were nervous about entering the real estate market. The EliteHomes investment team provided incredible guidance and helped us build a portfolio that's already generating 18% annual returns. Their expertise is unmatched."
 
-<div class="first-container d-flex mb-5">
-    <div class="inner">
-<div class="photo d-flex align-items-end justify-content-start position-relative d-block " style="width: 330%;">
-  <img src="images\avatar-1.png" 
-  class="rounded-4 w-25 ps-2 d-block" style="height: 350px;">
-  <div class="information ps-3 pt-0 d-flex flex-column  position-absolute start-0">
-  <h2 class="fw-bold" style=" font-size:x-large;">Alex "Phantom"<br> Chen</h2>
-  <h4 style="font-size: small; color: yellow;">Pro Player - VALORANT</h4>
-  <p style="font-size:smaller; color: gray;">World Champion 2023</p>
+          </p>
+          <div class="d-flex align-items-center gap-3">
+            <img src="Elite Homes Images/avatar-1.jpg" alt="Jennifer & Mark" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+            <div>
+              <h5 class="fw-bold mb-1" style="font-size: 1rem; color: #111;">David Rodriguez</h5>
+              <p class="text-secondary small mb-0">Real Estate Investor</p>
+              <p class="text-muted extra-small mb-0" style="font-size: 0.75rem;">$1.2M Investment Portfolio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- البطاقة الثانية (كرر نفس الهيكل لتغيير المحتوى) -->
+      <div class="carousel-item">
+        <div class="card border-0 mx-auto p-4 p-md-5 shadow-lg" style="max-width: 750px; border-radius: 20px;">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <span class="fs-5">⭐⭐⭐⭐⭐</span>
+            <span class="text-secondary small">5.0 out of 5</span>
+          </div>
+          <p class="card-text text-dark lh-base mb-4" style="font-size: 1.05rem;">
+            "EliteHomes made our home buying experience absolutely seamless.
+             Sarah and her team went above and beyond to help us find the perfect family home in Beverly Hills.
+              Their market knowledge and negotiation skills saved us over $100,000 on our purchase.
+               We couldn't be happier!"
+          </p>
+          <div class="d-flex align-items-center gap-3">
+            <img src="" alt="Client" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+            <div>
+              <h5 class="fw-bold mb-1" style="font-size: 1rem; color: #111;">Jennifer & Mark Thompson</h5>
+              <p class="text-secondary small mb-0">Beverly Hills Homeowners <br>Purchased $2.8M Family Estate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="card border-0 mx-auto p-4 p-md-5 shadow-lg" style="max-width: 750px; border-radius: 20px;">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <span class="fs-5">⭐⭐⭐⭐⭐</span>
+            <span class="text-secondary small">5.0 out of 5</span>
+          </div>
+          <p class="card-text text-dark lh-base mb-4" style="font-size: 1.05rem;">
+            "Selling our Manhattan penthouse was stress-free thanks to EliteHomes.
+             They marketed it beautifully, brought qualified buyers, and we sold for 15% above asking price in just 10 days. 
+             Their professional photography and staging made all the difference."
+
+          </p>
+          <div class="d-flex align-items-center gap-3">
+            <img src="" alt="Client" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+            <div>
+              <h5 class="fw-bold mb-1" style="font-size: 1rem; color: #111;">Amanda Chen</h5>
+              <p class="text-secondary small mb-0">Manhattan Seller<br>Sold $3.2M Penthouse</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="card border-0 mx-auto p-4 p-md-5 shadow-lg" style="max-width: 750px; border-radius: 20px;">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <span class="fs-5">⭐⭐⭐⭐⭐</span>
+            <span class="text-secondary small">5.0 out of 5</span>
+          </div>
+          <p class="card-text text-dark lh-base mb-4" style="font-size: 1.05rem;">
+           "Our company needed to relocate to a larger office space quickly.
+            EliteHomes' commercial team found us the perfect building in
+             downtown Austin with flexible lease terms and great amenities.
+             They handled everything professionally and efficiently."
+
+          </p>
+          <div class="d-flex align-items-center gap-3">
+            <img src="Elite Homes Images/avatar-3.jpg" alt="Client" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+            <div>
+              <h5 class="fw-bold mb-1" style="font-size: 1rem; color: #111;">Michael Foster</h5>
+              <p class="text-secondary small mb-0">CEO, TechStart Inc.<br>15,000 sq ft Office Lease</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- زر التنقل الأيسر (سهم) -->
+    <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev" style="left: -10px;">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <!-- زر التنقل الأيمن (سهم) -->
+    <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next" style="right: -10px;">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
   </div>
-</div>
-</div>
+</section>
 
- <div class="inner">
-<div class="photo d-flex align-items-end justify-content-start position-relative d-block " style="width: 330%;" >
-  <img src="images\avatar-2.png" 
-  class="rounded-4 w-25 ps-2 d-block" style="height: 350px;">
-  <div class="information ps-3 pt-0 d-flex flex-column  position-absolute start-0">
-  <h2 class="fw-bold" style=" font-size:x-large;">Ali "Nova" Ahmed</h2>
-  <h4 style="font-size: small; color: yellow;">Pro Player - League of Legends</h4>
-  <p style="font-size:smaller; color: gray;">MVP 2023 Season</p>
-  </div>
-</div>
-</div>
-
- <div class="inner">
-<div class="photo d-flex align-items-end justify-content-start position-relative  d-block " style="width: 330%;" >
-  <img src="images\avatar-3.png" 
-  class="rounded-4 w-25 ps-2 d-block" style="height: 350px;">
-  <div class="information ps-3 pt-0 d-flex flex-column  position-absolute start-0">
-  <h2 class="fw-bold" style=" font-size:x-large;">Marcus "Viper"<br> Rodriguez</h2>
-  <h4 style="font-size: small; color: yellow;">Head Coach - CS:GO</h4>
-  <p style="font-size:smaller; color: gray;">5x Major Winner</p>
-  </div>
-</div>
-</div>
-
-  <div class="inner">
-<div class="photo d-flex align-items-end justify-content-start position-relative  d-block" style=" width:330%;">
-  <img src="images\avatar-4.png" 
-  class="rounded-4 w-25 ps-2 d-block" style="height: 350px;">
-  <div class="information ps-3 pt-0 d-flex flex-column  position-absolute start-0">
-  <h2 class="fw-bold" style=" font-size:x-large;">Seif "Saga" Usama</h2>
-  <h4 style="font-size: small; color: yellow;">Strategic Analyst</h4>
-  <p style="font-size:smaller; color: gray;">Data Science Expert</p>
-  </div>
-</div>
-</div>
-</div>
-
-<div class="second-container d-flex">
-    <div class="inner">
-<div class="photo d-flex align-items-end justify-content-start position-relative d-block" style="width: 330%;" >
-  <img src="images\avatar-5.png" 
-  class="rounded-4 w-25 ps-2 d-block" style="height: 350px;">
-  <div class="information ps-3 pt-0 d-flex flex-column  position-absolute start-0">
-  <h2 class="fw-bold" style=" font-size:x-large;">Jake "Storm"<br> Wilson</h2>
-  <h4 style="font-size: small; color: yellow;">Pro Player - Apex Legends</h4>
-  <p style="font-size:smaller; color: gray;">Rising Star 2023</p>
-  </div>
-</div>
-</div>
-
-    <div class="inner">
-<div class="photo d-flex align-items-end justify-content-start position-relative  d-block" style="width: 330%;">
-  <img src="images\avatar-6.png" 
-  class="rounded-4 w-25 ps-2 d-block" style="height: 350px;">
-  <div class="information ps-3 pt-0 d-flex flex-column  position-absolute start-0">
-  <h2 class="fw-bold" style=" font-size:x-large;">David "Titan" Park</h2>
-  <h4 style="font-size: small; color: yellow;">Team Captain - Dota 2</h4>
-  <p style="font-size:smaller; color: gray;">The International Winner</p>
-  </div>
-</div>
-</div>
-
-    <div class="inner">
-<div class="photo d-flex align-items-end justify-content-start position-relative  d-block " style="width: 330%;">
-  <img src="images\avatar-7.png" 
-  class="rounded-4 w-25 ps-2 d-block" style="height: 350px;">
-  <div class="information ps-3 pt-0 d-flex flex-column  position-absolute start-0">
-  <h2 class="fw-bold" style=" font-size:x-large;">Khaled "Phoenix"<br> Ali</h2>
-  <h4 style="font-size: small; color: yellow;">Content Creator</h4>
-  <p style="font-size:smaller; color: gray;">2M+ Followers</p>
-  </div>
-</div>
-</div>
-
-    <div class="inner">
-<div class="photo d-flex align-items-end justify-content-start position-relative  d-block " style="width: 330%;">
-  <img src="images\avatar-8.png" 
-  class="rounded-4 w-25 ps-2 d-block" style="height: 350px;">
-  <div class="information ps-3 pt-0 d-flex flex-column  position-absolute start-0">
-  <h2 class="fw-bold" style=" font-size:x-large;">Ryan "Ghost"<br> Miller</h2>
-  <h4 style="font-size: small; color: yellow;">Team Manager</h4>
-  <p style="font-size:smaller; color: gray;">Operations Lead</p>
-  </div>
-</div>
-</div>
-</div>
-</div>
 </div>
 </section>
 
-<section style="position:relative;">
-   <div class="d-flex align-items-center justify-content-center gap-3 mb-3 mt-4">
-      <span class="d-inline-block" style="width: 40px; height: 2px; background-color: #a5ff30;"></span>
-      <span class="text-uppercase tracking-wider font-monospace fw-bold small" style="color: #a5ff30;">CONTACT US</span>
-      <span class="d-inline-block" style="width: 40px; height: 2px; background-color: #a5ff30;"></span>
+<section>
+    <div class="premium-header mt-5 d-flex justify-content-center align-items-start">
+                <span class=" me-2 fs-4" style="color: purple;">  _________</span>
+                <p class=" rounded-4 text-center mt-2" style="color: blue; border: 3px solid silver; width: 200px;">Premium Collection</p>
+                <span class=" ms-2 fs-4" style="color: purple;">  _________</span>
+            </div>
+            <div class="featured text-center">
+            <h2 class="display-5 fw-bold text-center mb-3" style="color:#8A2BE2;">Frequently Asked Questions</h2>
+                <p class="fs-4 w-50 m-auto">Get answers to the most common questions about buying, selling, and investing in real estate</p>
+            </div>
+            <div>
+                <div class="container my-5" style="max-width: 850px;">
+  <!-- بداية حاوية الأسئلة الشائعة -->
+  <div class="accordion custom-faq" id="faqAccordion">
+
+    <!-- السؤال الأول -->
+    <div class="accordion-item mb-4 border-0 shadow-sm rounded-4">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed fw-semibold text-dark bg-white rounded-4 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          How do I know if I'm ready to buy a home?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body bg-white text-muted pt-0 pb-4 rounded-bottom-4">
+            You're ready to buy a home when you have stable income,
+             a good credit score (typically 620+),
+             a down payment saved (usually 10-20% of the home price), 
+            and you plan to stay in the area for at least 3-5 years.
+             Our team can help assess your financial readiness and
+              connect you with mortgage pre-approval services.
+        </div>
+      </div>
     </div>
-<div style="margin-bottom: 5%;">
-  <h2 class="fw-bold fs-1 text-center">Get In Touch</h2>
-  <p class="text-center" style="color: gray; font-size: small;">
-  Have questions or need support? We're here to help!</p>
+
+    <!-- السؤال الثاني -->
+    <div class="accordion-item mb-4 border-0 shadow-sm rounded-4">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed fw-semibold text-dark bg-white rounded-4 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What's the best time of year to sell my home?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body bg-white text-muted pt-0 pb-4 rounded-bottom-4">
+Spring and early summer (March through June) are traditionally the best times to sell, as buyers are more active and homes show better with good weather. However, market conditions, local factors, and your personal timeline are more important than the season. We can help you determine the optimal timing based on current market conditions in your area.
+        </div>
+      </div>
+    </div>
+
+    <!-- السؤال الثالث -->
+    <div class="accordion-item mb-4 border-0 shadow-sm rounded-4">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed fw-semibold text-dark bg-white rounded-4 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          How much should I offer on a house?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+        <div class="accordion-body bg-white text-muted pt-0 pb-4 rounded-bottom-4">
+            Your offer should be based on comparable sales in the area, 
+            the home's condition, current market conditions, and your budget. 
+            In competitive markets, you might need to offer at or above asking price.
+             Our agents will provide a detailed comparative market analysis (CMA) to help you make a competitive yet reasonable offer.
+        </div>
+      </div>
+    </div>
+
+    <!-- السؤال الرابع -->
+    <div class="accordion-item mb-4 border-0 shadow-sm rounded-4">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed fw-semibold text-dark bg-white rounded-4 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          What are closing costs and who pays them?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+        <div class="accordion-body bg-white text-muted pt-0 pb-4 rounded-bottom-4">
+            Closing costs typically range from 2-5% of the home's purchase price and include fees for loan origination, 
+            appraisal, title insurance, attorney fees, and taxes. 
+            Both buyers and sellers have closing costs, though they vary by location and can be negotiated.
+             We'll provide a detailed breakdown of expected costs early in the process.
+        </div>
+      </div>
+    </div>
+
+    <!-- السؤال الخامس -->
+    <div class="accordion-item mb-4 border-0 shadow-sm rounded-4">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed fw-semibold text-dark bg-white rounded-4 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Should I get a home inspection?
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+        <div class="accordion-body bg-white text-muted pt-0 pb-4 rounded-bottom-4">
+            Yes, absolutely! A professional home inspection typically
+             costs $300-600 but can save you thousands by
+             identifying potential issues before you buy.
+             We recommend inspections for all property types and can connect you with qualified,
+              licensed inspectors in your area.
+        </div>
+      </div>
+    </div>
+
+        <!-- السؤال السادس -->
+    <div class="accordion-item mb-4 border-0 shadow-sm rounded-4">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed fw-semibold text-dark bg-white rounded-4 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          How long does it take to buy or sell a home?
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+        <div class="accordion-body bg-white text-muted pt-0 pb-4 rounded-bottom-4">
+            For buyers, the process typically takes 30-45 days from offer acceptance to closing,
+             though finding the right home can take weeks or months. For sellers,
+              the average time on market varies by location and price range, 
+              but our properties typically sell within 28 days.
+             We'll provide realistic timelines based on your specific situation and local market conditions.
+        </div>
+      </div>
+    </div>
+
+    <!-- السؤال السابع والأخير -->
+    <div class="accordion-item mb-4 border-0 shadow-sm rounded-4">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed fw-semibold text-dark bg-white rounded-4 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          What makes EliteHomes different from other real estate companies?
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+        <div class="accordion-body bg-white text-muted pt-0 pb-4 rounded-bottom-4">
+            We combine cutting-edge technology with personalized service, offering virtual tours,
+             AI-powered property matching, comprehensive market analytics, and a dedicated team of experts for each client. 
+            Our 98% client satisfaction rate and average 21-day selling time speak to our commitment to excellence and results.
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+</div>
+            </div>
+</section>
+<section>
+     <div class="premium-header mt-5 d-flex justify-content-center align-items-start">
+                <span class=" me-2 fs-4" style="color: purple;">  _________</span>
+                <p class=" rounded-4 text-center mt-2" style="color: blue; border: 3px solid silver; width: 200px;">Contact Us</p>
+                <span class=" ms-2 fs-4" style="color: purple;">  _________</span>
+            </div>
+            <div class="featured text-center">
+            <h2 class="display-5 fw-bold text-center mb-3" style="color:#8A2BE2;">Get In Touch</h2>
+                <p class="fs-4 w-50 m-auto">Ready to start your real estate journey? Our expert team is here to help you every step of the way</p>
+            </div>
+            <div>
+                <div class="container my-5">
+  <!-- النص التعريفي العلوي -->
+  <div class="text-center mb-5 mx-auto" style="max-width: 700px;">
+    <p class="text-secondary fw-medium fs-5 lh-base">
+      Ready to start your real estate journey? Our expert team is here to help you every step of the way
+    </p>
+  </div>
+
+  <!-- شبكة بطاقات التواصل الأربعة -->
+  <div class="row g-4 justify-content-center">
+    
+    <!-- 1. بطاقة الاتصال (Call Us) -->
+    <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card h-100 border border-light-subtle p-4 shadow-sm rounded-4 custom-card">
+        <div class="icon-gradient rounded-4 mb-4 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #7c3aed, #a78bfa);">
+          <span class="fs-4 text-white">📞</span>
+        </div>
+        <h4 class="fw-bold text-dark mb-2" style="font-size: 1.25rem;">Call Us</h4>
+        <p class="text-muted small mb-3">Mon-Fri from 8am to 5pm</p>
+        <a href="tel:+15551234567" class="text-decoration-none fw-semibold tracking-wide text-purple">+1 (555) 123-4567</a>
+      </div>
+    </div>
+
+    <!-- 2. بطاقة البريد الإلكتروني (Email Us) - البطاقة المميزة بإطار بنفسجي -->
+    <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card h-100 p-4 shadow-sm rounded-4 custom-card border-active-purple">
+        <div class="icon-gradient rounded-4 mb-4 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #c084fc, #e879f9);">
+          <span class="fs-4 text-white">✉️</span>
+        </div>
+        <h4 class="fw-bold text-dark mb-2" style="font-size: 1.25rem;">Email Us</h4>
+        <p class="text-muted small mb-3">We'll respond within 24hrs</p>
+        <a href="mailto:info@elitehomes.com" class="text-decoration-none fw-semibold text-purple text-break">info@elitehomes.com</a>
+      </div>
+    </div>
+
+    <!-- 3. بطاقة الزيارة (Visit Us) -->
+    <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card h-100 border border-light-subtle p-4 shadow-sm rounded-4 custom-card">
+        <div class="icon-gradient rounded-4 mb-4 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #ec4899, #f43f5e);">
+          <span class="fs-4 text-white">📍</span>
+        </div>
+        <h4 class="fw-bold text-dark mb-2" style="font-size: 1.25rem;">Visit Us</h4>
+        <p class="text-muted small mb-3">Come say hello</p>
+        <span class="fw-semibold text-danger-orange">Beverly Hills, CA</span>
+      </div>
+    </div>
+
+    <!-- 4. بطاقة المحادثة (Live Chat) -->
+    <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card h-100 border border-light-subtle p-4 shadow-sm rounded-4 custom-card">
+        <div class="icon-gradient w-50 rounded-3 mb-4 d-flex align-items-center justify-content-center" style="background-color: skyblue;">
+          <span class="fs-4 text-white">💬</span>
+        </div>
+        <h4 class="fw-bold text-dark mb-2" style="font-size: 1.25rem;">Live Chat</h4>
+        <p class="text-muted small mb-3">Available 24/7</p>
+        <a href="#" class="text-decoration-none fw-semibold text-purple d-flex align-items-center gap-1 arrow-link">
+          Start chatting <span class="arrow-transition">→</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
 </div>
 
-<div class="your-information" style=" width: 40%; margin-left: 120px; margin-right: 140px; margin-bottom: 5%;">
-  <div class="start-side">
-    <div class="our-location rounded-3 p-4 mb-4" style="background-color:rgb(112, 109, 109); position:relative;">
-      <span class="rounded-5" style="background-color:#aef85a; color: black; width: 50px; height:50px; padding: 25px; position:absolute; top: 30%;"><i class="fas fa-location-pin text-dark" style="position: absolute; bottom: 28%; right: 28%;"></i></span>
-      <div  style="margin-left: 70px;">
-      <h1>our location</h1>
-      <p>123 Gaming Street, Esports City, EC 12345</p>
-      </div>
-    </div>
-      <div class="our-location rounded-3 p-4 mb-4" style="background-color:rgb(112, 109, 109); position:relative;">
-      <span class="rounded-5" style="background-color:#aef85a; color: black; width: 50px; height:50px; padding: 25px; position:absolute; top: 30%;"><i class="fas fa-phone text-dark" style="position: absolute; bottom: 28%; right: 28%;"></i></span>
-      <div  style="margin-left: 70px;">
-      <h1>Phone Number</h1>
-      <p>+1 (555) 123-4567</p>
-      </div>
-    </div>
-      <div class="our-location rounded-3 p-4 mb-4" style="background-color:rgb(112, 109, 109); position:relative;">
-      <span class="rounded-5" style="background-color:#aef85a; color: black; width: 50px; height:50px; padding: 25px; position:absolute; top: 30%;"><i class="fas fa-mail-bulk text-dark" style="position: absolute; bottom: 28%; right: 28%;"></i></span>
-      <div  style="margin-left: 70px;">
-      <h1>Email Address</h1>
-      <p>contact@gamearena.com</p>
-      </div>
-    </div>
-      <div class="our-location rounded-3 p-4" style="background-color:rgb(107, 245, 137); position:relative;">
-      <span class="rounded-5" style="color:#aef85a; background-color: black; width: 35px; height:35px; padding: 5px; position:absolute; top: 70%; left: 20%;"><i class="fas fa-gamepad" style="position: absolute; bottom: 28%; right: 28%; left: 20%; color:#a5ff30;"></i></span>
-      <span class="rounded-5" style="color:#aef85a; background-color: black; width: 35px; height:35px; padding: 5px; position:absolute; top: 70%; left: 30%;"><i class="fab fa-x-twitter" style="position: absolute; bottom: 28%; right: 28%; left: 20%; color:#a5ff30;"></i></span>
-      <span class="rounded-5" style="color:#aef85a; background-color: black; width: 35px; height:35px; padding: 5px; position:absolute; top: 70%; left: 40%;"><i class="fab fa-instagram" style="position: absolute; bottom: 28%; right: 28%; left: 20%; color:#a5ff30;"></i></span>
-      <span class="rounded-5" style="color:#aef85a; background-color: black; width: 35px; height:35px; padding: 5px; position:absolute; top: 70%; left:50%;"><i class="fab fa-youtube" style="position: absolute; bottom: 28%; right: 28%; left: 20%; color:#a5ff30;"></i></span>
+</section>
+<section>
+    <div class="container my-5" style="max-width: 1200px;">
+  <div class="row g-4">
+    
+    <!-- الجانب الأيسر: Contact Information -->
+    <div class="col-12 col-md-4">
+      <div class="p-4" style="background-color: #f8f9fa; border-radius: 24px; min-height: 100%;">
+        <h3 class="fw-bold mb-5" style="font-size: 1.6rem; color: #0f172a; letter-spacing: -0.5px;">Contact Information</h3>
+        
+        <!-- Address -->
+        <div class="d-flex align-items-start gap-3 mb-4">
+          <div class="rounded-circle d-flex align-items-center justify-content-center text-purple bg-white shadow-sm" style="width: 44px; height: 44px; min-width: 44px; font-size: 1.2rem;">
+            📍
+          </div>
+          <div>
+            <h5 class="fw-bold mb-1" style="font-size: 1.05rem; color: #0f172a;">Address</h5>
+            <p class="text-secondary small mb-0 lh-base">1234 Luxury Boulevard<br>Beverly Hills, CA 90210</p>
+          </div>
+        </div>
 
-      <div  style="margin-left: 70px;">
-      <h1 style="color: black; font-size: 30px;">Join Our Community</h1>
-      <p style="color: black;">Connect with us on social media for the latest updates</p>
-      </div>
-    </div>
+        <!-- Phone -->
+        <div class="d-flex align-items-start gap-3 mb-4">
+          <div class="rounded-circle d-flex align-items-center justify-content-center text-purple bg-white shadow-sm" style="width: 44px; height: 44px; min-width: 44px; font-size: 1.2rem;">
+            📞
+          </div>
+          <div>
+            <h5 class="fw-bold mb-1" style="font-size: 1.05rem; color: #0f172a;">Phone</h5>
+            <p class="text-secondary small mb-0 lh-base">+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="d-flex align-items-start gap-3 mb-4">
+          <div class="rounded-circle d-flex align-items-center justify-content-center text-purple bg-white shadow-sm" style="width: 44px; height: 44px; min-width: 44px; font-size: 1.2rem;">
+            ✉️
+          </div>
+          <div>
+            <h5 class="fw-bold mb-1" style="font-size: 1.05rem; color: #0f172a;">Email</h5>
+            <p class="text-secondary small mb-0 lh-base">info@elitehomes.com<br>support@elitehomes.com</p>
+          </div>
+        </div>
+
+        <!-- Working Hours -->
+        <div class="d-flex align-items-start gap-3">
+          <div class="rounded-circle d-flex align-items-center justify-content-center text-purple bg-white shadow-sm" style="width: 44px; height: 44px; min-width: 44px; font-size: 1.2rem;">
+            🕒
+          </div>
+          <div>
+            <h5 class="fw-bold mb-1" style="font-size: 1.05rem; color: #0f172a;">Working Hours</h5>
+            <p class="text-secondary small mb-0 lh-base">Mon-Fri: 8:00 AM - 8:00 PM<br>Sat-Sun: 9:00 AM - 6:00 PM</p>
+          </div>
+        </div>
+        <div class="p-4 text-white text-start shadow-sm position-relative overflow-hidden" style="background-color: #9333ea; border-radius: 16px; min-height: 220px;">
+  
+  <!-- عنوان البطاقة -->
+   <h3 class="fw-bold mb-3" style="font-size: 1.5rem; letter-spacing: -0.3px;">Connect With Us</h3>
+  
+  <!-- النص الوصفي الصغير -->
+  <p class="mb-4 text-white-50 small" style="font-size: 0.9rem; max-width: 250px;">
+    Follow us on social media for updates and insights
+  </p>
+  
+  <!-- أزرار وسائل التواصل الاجتماعي الدائرية -->
+  <div class="d-flex gap-2 flex-wrap">
+    <a href="#" class="social-icon-btn d-flex align-items-center justify-content-center text-white text-decoration-none rounded-3">
+      <i class="fab fa-facebook p-3"></i>
+    </a>
+    <a href="#" class="social-icon-btn d-flex align-items-center justify-content-center text-white text-decoration-none rounded-3">
+      <i class="fab fa-twitter-x p-3"></i>
+    </a>
+    <a href="#" class="social-icon-btn d-flex align-items-center justify-content-center text-white text-decoration-none rounded-3">
+      <i class="fab fa-instagram p-3"></i>
+    </a>
+    <a href="#" class="social-icon-btn d-flex align-items-center justify-content-center text-white text-decoration-none rounded-3">
+      <i class="fab fa-linkedin p-3"></i>
+    </a>
+    <a href="#" class="social-icon-btn d-flex align-items-center justify-content-center text-white text-decoration-none rounded-3">
+      <i class="fab fa-youtube p-3"></i>
+    </a>
   </div>
 </div>
 
-<div class="rounded-3 p-3"  style=" width: 40%; margin-left: 120px; margin-right: 120px; margin-bottom: 5%; background-color:rgb(77, 76, 76); position:absolute; top: 150px; right: 0; ">
-  <div class="end-side">
-    <span>
-      <label for="first-name">first-name<br>
-        <input type="text" id="first-name" placeholder=" your first name" class="rounded-3 text-start" style="background-color:silver;padding:15px 30px;color:rgb(250, 248, 248);">
-      </label>
-       <label for="last-name">last-name<br>
-        <input type="text" id="last-name" placeholder="your last name" class="rounded-3 text-start" style="background-color:silver; padding: 15px 30px;">
-      </label>
-    </span>
-    <br>
-    <br>
-    <label for="email">email<br>
-      <input type="email" id="email" placeholder="your.email@example.com" class="rounded-3 text-start" style="background-color: silver; padding: 15px 150px;">
-    </label>
-    <br>
-    <br>
-    <label for="subject">subject<br>
-      <select name="list-item" id=" subject" class="rounded-3 text-start" style="background-color: silver; padding: 15px 145px;">
-        <option name="list-item">GENERAL INQUIRY</option>
-        <option name="list-item">TOURNAMENT SUPPORT</option>
-        <option name="list-item">TECHNICAL ISSUE</option>
-        <option name="list-item">PARTNERSHIP</option>
-        <option name="list-item"> MEDIA REQUEST</option>
-      </select>
-    </label>
-    <br>
-    <br>
-    <label for="message">message<br>
-      <input type="textarea" placeholder="tell us how we can help you" class="rounded-3" style="padding: 60px 150px; background-color: silver;">
-    </label>
-    <br>
-    <br>
-    <input type="checkbox">
-    <span style="color:gray;">Subscribe to our newsletter for gaming updates</span>
-    <br>
-    <br>
-    <h1 class="rounded-3 text-center" style="font-size:small; background-color:#aef85a;color: black; padding: 15px 155px;">SEND MESSAGE <i class="fas fa-location-arrow"></i></h1>
-    <br>
-    <hr>
-    <span style="color: yellow; margin-right: 300px; margin-left:30px; font-weight:bold">24/7</span>
-    <span style="color: yellow; font-weight: bold"> 1hr </span>
-<br>
-    <span style="color: silver;margin-right: 150px; margin-left:30px;">Support Available</span>
-    <span style="color: silver;">Average Response</span>
 
+      </div>
+    </div>
 
+    
+    <!-- الجانب الأيمن: Send us a message -->
+    <div class="col-12 col-md-8 border border-1 rounded-3">
+      <div class="px-3 py-2">
+        <h3 class="fw-bold mb-2" style="font-size: 2.2rem; color: #0f172a; letter-spacing: -0.5px;">Send us a message</h3>
+        <p class="text-muted mb-5" style="font-size: 1rem;">Fill out the form below and we'll get back to you as soon as possible</p>
+        
+        <form>
+          <div class="row g-4">
+            <!-- First Name -->
+            <div class="col-12 col-sm-6">
+              <label class="form-label small fw-semibold text-dark mb-2">First Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control custom-form-input" placeholder="John" required>
+            </div>
+            
+            <!-- Last Name -->
+            <div class="col-12 col-sm-6">
+              <label class="form-label small fw-semibold text-dark mb-2">Last Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control custom-form-input" placeholder="Doe" required>
+            </div>
+
+            <!-- Email Address -->
+            <div class="col-12 col-sm-6">
+              <label class="form-label small fw-semibold text-dark mb-2">Email Address <span class="text-danger">*</span></label>
+              <input type="email" class="form-control custom-form-input" placeholder="john@example.com" required>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="col-12 col-sm-6">
+              <label class="form-label small fw-semibold text-dark mb-2">Phone Number</label>
+              <input type="tel" class="form-control custom-form-input" placeholder="+1 (555) 000-0000">
+            </div>
+
+            <!-- List I'm interested in -->
+            <div class="col-12">
+              <label class="form-label small fw-semibold text-dark mb-2">I'm interested in</label>
+              <select class="form-select custom-form-input text-secondary">
+                <option selected disabled>Select a service</option>
+                <option value="buy">Buying a Home</option>
+                <option value="sell">Selling a Home</option>
+                <option value="rent">Renting / Leasing</option>
+              </select>
+            </div>
+
+            <!-- Your Message -->
+            <div class="col-12">
+              <label class="form-label small fw-semibold text-dark mb-2">Your Message <span class="text-danger">*</span></label>
+              <textarea class="form-control custom-form-input" rows="5" placeholder="How can we help you?" required></textarea>
+            </div>
+
+            <div class="col-12">
+               <input type="checkbox">
+               <span style="background-color: silver;" class="rounded-3 py-2 px-2"> I agree to receive marketing communications and updates from EliteHomes</span>
+            </div>
+
+            <!-- الزر البنفسجي العريض السادة المصمت في الصورة -->
+            <div class="col-12 mt-4">
+              <button type="submit" class="btn btn-submit-purple w-100 py-3 fw-semibold" style="background-color:#7c3aed;">Send Message</button>
+              <p class="text-center mt-3">We respect your privacy. Your information will never be shared.</p>
+            </div>
+
+          </div>
+        </form>
+      </div>
     </div>
-    </div>
+
+  </div>
+</div>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
 <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
-  </body>
-
+</body>
 </html>
